@@ -18,9 +18,9 @@ def donuts(count):
     'Number of donuts: many'
     """
     if count < 10:
-        print 'Number of donuts: ' + str(count)
+        print('Number of donuts: ' + str(count))
     if count >= 10:
-        print 'Number of donuts: many'
+        print('Number of donuts: many')
 
 
 def both_ends(s):
@@ -39,9 +39,9 @@ def both_ends(s):
     'xyyz'
     """
     if len(s) < 2:
-        print ''
+        print('')
     else:
-        print s[:2] + s[-2:]
+        print(s[:2] + s[-2:])
 
 
 def fix_start(s):
