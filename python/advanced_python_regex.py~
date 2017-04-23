@@ -69,6 +69,4 @@ for email in emails:
 unique = []
 for domain in domains:
     unique.append(domain[1])
-
-print(emails)
 print(list(set(unique)))
