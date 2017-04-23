@@ -29,13 +29,13 @@ for row in data:
     if re.search("M.S.|MS", row[1].strip()) != None:
         MS += 1
 
-print "PHD: " + str(PhD)
-print "ScD: " + str(ScD)
-print "MA: " + str(MA)
-print "MPH: " + str(MPH)
-print "JD: " + str(JD)
-print "BSEd: " + str(BSEd)
-print "MS: " + str(MS)
+print("PHD: " + str(PhD))
+print("ScD: " + str(ScD))
+print("MA: " + str(MA))
+print("MPH: " + str(MPH))
+print("JD: " + str(JD))
+print("BSEd: " + str(BSEd))
+print("MS: " + str(MS))
 
 #Q2
 Professor = 0
@@ -49,9 +49,9 @@ for row in data:
     if re.search("^Professor", row[2].strip()) != None:
         Professor += 1
 
-print "Professor of Biostatistics: " + str(Professor)
-print "Associate Professor of Biostatistics: " + str(Associate)
-print "Assistant Professor of Biostatistics: " + str(Assistant)
+print("Professor of Biostatistics: " + str(Professor))
+print("Associate Professor of Biostatistics: " + str(Associate))
+print("Assistant Professor of Biostatistics: " + str(Assistant))
 
 #Q3
 email = []
@@ -66,4 +66,4 @@ for email in emails:
 unique = []
 for domain in domains:
     unique.append(domain[1])
-print list(set(unique))
+print(list(set(unique)))
