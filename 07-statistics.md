@@ -103,7 +103,11 @@ P(Identical Twin|Male Twin) = (1/300 * 1)/((1 * 1/300) + (1/2 * 1/125)) = 5/11 =
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+Philosophically, Bayesian statistics assign a probability to a hypothesis based on the available data. Frequentists have a hypothesis that either is or is not true, and based on the data they determine how likely it is that the data could result assuming the hypothesis.
+
+Practically, Bayesian statistics incorporate prior knowledge to improve the prediction. Frequentist statistics use data where the parameters are assumed to be fixed throughout sampling.
+```
 
 ---
 
