@@ -27,7 +27,7 @@ def cohenD(group1, group2):
     weights = [len(group1), len(group2)]
     pooled_var = np.dot(vars, weights) / np.sum(weights)
     
-    return (m1 - m2) / np.sqrt(pooled_var)
+    return (m1 - m2) / pooled_var**0.5
     
 print(cohenD(firsts['totalwgt_lb'], others['totalwgt_lb']))
 print(cohenD(firsts['prglngth'], others['prglngth']))
