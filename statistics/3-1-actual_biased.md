@@ -37,6 +37,11 @@ print('Biased distribution mean: %f' % pmf_biased.Mean())
 print('Biased mean - actual mean: %f' % (pmf_biased.Mean() - pmf_actual.Mean()))
 ```
 
+
+![png](pmf.png)
+
 Actual distribution mean: 1.024205
+
 Biased distribution mean: 2.403679
+
 Biased mean - actual mean: 1.379474
