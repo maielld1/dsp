@@ -34,6 +34,8 @@ print(cohenD(firsts['prglngth'], others['prglngth']))
 ```
 
 The Cohen's d for pregnancy length between first babies and not first babies was .029 standard deviations.
+
 The Cohen's d for weight between first babies and not first babies was -.089.
+
 This implies that the effect of being a first baby has a greater impact on birth weight than it does pregnancy length.
 The sign of Cohen's d also leads to the conclusion that being a first baby reduces birthweight while it increases the pregnancy length.
